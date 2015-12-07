@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* ===================================================================
+common style
+=================================================================== */
+/* ===================================================================
+setting 変数定義をここに記載していく
+=================================================================== */
+body, button {
+  	font-family: "Roboto", "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ', Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	min-width:400px;
+  	overflow-x:hidden;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Example 0: Hello World in Console",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "This is an example to print Hello World in Chrome console",
+  "icons": {
+    "16": "src/icons/icon16.png",
+    "48": "src/icons/icon48.png",
+    "128": "src/icons/icon128.png"
+  },
+  "background": {
+    "scripts": [
+      "src/js/background.js"
+    ]
+  },
+  "browser_action": {
+  	"default_icon": "src/icons/icon128.png",
+  	"default_popup": "src/popup.html"
+  }
+}
