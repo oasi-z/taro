@@ -1,11 +1,35 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>オプション</title>
+    <title>オプション設定</title>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 </head>
 <script src="lib/jquery-2.1.4.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
 <script src="js/options.js"></script>
 <body>
-<div id="dummy"></div>
+<div class="jumbotron">
+    <h2>オプション設定</h2>
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="true">
+            標準モード
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li>
+                <a href="#">標準モード</a>
+            </li>
+            <li>
+                <a href="#">修造モード</a>
+            </li>
+            <li>
+                <a href="#">萌えモード</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
 </body>
 </html>
