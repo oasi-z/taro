@@ -26,9 +26,9 @@
              ]
          }
      };
-     // TODO オプションの設定から応援モードを取得する
-    var modeType = 0;
-    $('#message').text(getYellMessage(modeType));
+    var modeType = localStorage.getItem('mode');
+    if (modeType == null) modeType = 0;
+    $('#message').text(getYellMessage(parseInt(modeType, 10)));
 
 
   function getYellMessage(modeType) {
@@ -40,7 +40,7 @@
         case 2:
             return createMessage("moe");
         default:
-              console.log("有効な値ではありません");
+              console.log("有効な値ではありません " + modeType);
               break;
     }
 
