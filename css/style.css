@@ -15,3 +15,8 @@ body {
 	min-width:400px;
   	overflow-x:hidden;
 }
+
+#opCustom > .opCustomArea {
+	width: 90%;
+	margin: 20px;
+}
