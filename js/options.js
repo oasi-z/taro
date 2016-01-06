@@ -13,7 +13,7 @@ $(function () {
             "value": 2
         },
         "custom": {
-            "title": "カスタム",
+            "title": "カスタムモード",
             "value": 3
         }
     };
